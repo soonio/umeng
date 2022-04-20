@@ -1,6 +1,10 @@
 # Umeng推送
 > 简单整合一下umeng的推送
 
+## 实现参考
+
+https://developer.umeng.com/docs/67966/detail/68343#h1-u6D88u606Fu53D1u90014
+
 ## 用法示例
 
 ```go
