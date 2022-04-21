@@ -105,6 +105,10 @@ type Result struct {
 	Data map[string]string
 }
 
+func (r *Result) Ok() bool {
+	return r.Code == "SUCCESS"
+}
+
 // Send 对数据进行编码后发送
 func Send(path, key string, data interface{}) *Result {
 	bs, _ := json.Marshal(data)
